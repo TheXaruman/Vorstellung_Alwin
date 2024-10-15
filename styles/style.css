@@ -32,33 +32,38 @@ header {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 2px solid #fff; /* Adds a slight border for visibility */
+    /* Removed white border for tight overlap */
 }
 
-/* Positioning images to overlap */
+/* Positioning images to overlap more cleanly */
 .image-grid img:nth-child(1) {
     top: 0;
     left: 0;
+    /* Bild 3 (Person mit Kopfhörern und Krawatte) */
 }
 
 .image-grid img:nth-child(2) {
-    top: 0;
+    top: 10px;
     left: 50px;
+    /* Bild 2 (Selfie mit neutralem Hintergrund) */
 }
 
 .image-grid img:nth-child(3) {
     top: 50px;
     left: 100px;
+    /* Bild 1 (Händedruck) */
 }
 
 .image-grid img:nth-child(4) {
-    top: 100px;
-    left: 0;
+    top: 80px;
+    left: 10px;
+    /* Bild 5 (Drei Personen in T-Shirts auf der Straße) */
 }
 
 .image-grid img:nth-child(5) {
-    top: 100px;
-    left: 50px;
+    top: 110px;
+    left: 60px;
+    /* Bild 4 (Person mit Sonnenbrille im Dunkeln) */
 }
 
 /* Title styling */
